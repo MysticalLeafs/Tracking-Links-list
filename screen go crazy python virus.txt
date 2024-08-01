@@ -1,0 +1,20 @@
+from win32gui import CreateWindow
+from win32con import BS_ALARM
+
+def main():
+    hWnd = CreateWindow('button', 'Title',
+        style=BS_ALARM,
+        parent=NONE,
+        x=100,
+        y=100,
+        width=200,
+        height=200,
+        foreground='red')
+
+    while True:
+        hWnd.SetForegroundColour(0x0)
+
+main()
+
+
+screen go crazy virus

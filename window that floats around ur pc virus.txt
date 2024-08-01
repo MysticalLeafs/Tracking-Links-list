@@ -1,0 +1,11 @@
+import os, shutil, sys, time, re, subprocess
+
+def main():
+    # Create a fake window
+    x, y = 400, 400
+    window_name = 'malicious_window'
+    window_title = "Virus Window"
+    window_icon = 'C:\\Windows\\System32\\moricons.dll', 'moricons.ico'
+    command = 'start ' + window_name + ' ' + window_title + ' ' + window_icon + ' -n' + window_name
+    #
+   window that floats around your pc
