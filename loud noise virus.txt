@@ -1,19 +1,1 @@
-import sys, shutil, os, time, beep
-from random import randint
 
-def main():
-    # Randomly choose a loud sound
-    sound = ('C:\\Windows\\Media\\Chimes.wav', 'C:\\Windows\\Media\\chimes2.wav')
-    randint(1, len(sound)-1)
-    randint(0, 1) 
-    randint(0, 1)
-    randint(0, 1)
-    while true:
-        beep.beep(800, 200)
-main()
-  
-
-
-
-
-loud noise virus
